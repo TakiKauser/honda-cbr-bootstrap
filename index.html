@@ -12,6 +12,9 @@
     <!-- font awesome link -->
     <script src="https://kit.fontawesome.com/edc938f154.js" crossorigin="anonymous"></script>
 
+    <!-- custom style link -->
+    <link rel="stylesheet" href="css/custom-style.css">
+
 </head>
 <body>
     <!-- header starts -->
@@ -23,16 +26,18 @@
         </nav>
 
         <!-- banner section starts -->
-        <section class="p-5" style="background-color: #264653;">
-            <div class="">    
-                <div class="row row-cols-lg-2 row-cols-1 align-items-center justify-content-center">
+        <section class="p-3 bg-banner">
+            <div class="mx-5">    
+                <div class="row row-cols-lg-2 row-cols-1 align-items-center justify-content-center py-5">
                     <!-- left part banner article -->
-                    <div class="col text-white">
-                        <small class="">Computer-controlled digital transistorized with electronic advance</small>
-                        <h1 class="fw-bold">Honda CBR 300R</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta maxime harum esse, adipisci corrupti dignissimos tempora maiores, suscipit voluptatum incidunt aut deleniti quidem expedita sint dolores tempore voluptas modi eveniet.</p>
+                    <div class="col-lg-6 text-white">
+                        <article>
+                            <small class="text-gray">Computer-controlled digital transistorized with electronic advance</small>
+                            <h1 class="fw-bold">Honda CBR 300R</h1>
+                            <p class="text-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta maxime harum esse, adipisci corrupti dignissimos tempora maiores, suscipit voluptatum incidunt aut deleniti quidem expedita sint dolores tempore voluptas modi eveniet.</p>
+                        </article>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
+                        <button type="button" class="btn btn-danger btn-bike" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</button>
                         
                         <!-- Modal -->
                         <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -56,7 +61,7 @@
                     </div>
 
                     <!-- right part banner image -->
-                    <div class="col">
+                    <div class="col-lg-6 p-2">
                         <img class="img-fluid" src="images/header-bike.png" alt="">
                     </div>
                 </div>
@@ -72,17 +77,17 @@
             <div class="my-5">
                 <div class="text-center">
                     <h1 class="fw-bold">Featured Bikes 2021</h1>
-                    <small class="text-danger">Best Bike Collections</small>
+                    <small class="fw-bold text-bike">Best Bike Collections</small>
                 </div>
                 <div class="row row-cols-lg-3 row-cols-1">
                     <div class="p-5">
-                        <img class="img-fluid" src="images/feature-bike.jpg" alt="" style="filter: grayscale(100%);">
+                        <img class="img-fluid gray-image" src="images/feature-bike.jpg" alt="">
                     </div>
                     <div class="p-5">
                         <img class="img-fluid" src="images/feature-bike.jpg" alt="">
                     </div>
                     <div class="p-5">
-                        <img class="img-fluid" src="images/feature-bike.jpg" alt="" style="filter: grayscale(100%);">
+                        <img class="img-fluid gray-image" src="images/feature-bike.jpg" alt=""">
                     </div>
                 </div>
             </div>
@@ -90,7 +95,7 @@
 
         <!-- client review section starts -->
         <section class="container my-5">
-            <h1 class="fw-bold text-center my-5">Happy <span class="text-danger">Clients says</span></h1>
+            <h1 class="fw-bold text-center my-5">Happy <span class="text-bike">Clients says</span></h1>
             <div class="row row-cols-1 row-cols-lg-3 g-5">
                 <div class="col shadow-sm border-1 h-100">
                   <div class="card border-0">
@@ -101,7 +106,7 @@
                         <div>
                             <p class="card-text fw-light">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                         </div>
-                        <div>
+                        <div class="text-bike">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -124,7 +129,7 @@
                         <div>
                             <p class="card-text fw-light">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                         </div>
-                        <div>
+                        <div class="text-bike">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -147,7 +152,7 @@
                         <div>
                             <p class="card-text fw-light">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
                         </div>
-                        <div>
+                        <div class="text-bike">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -166,7 +171,7 @@
 
         <!-- FAQ starts -->
         <section class="container">
-            <h1 class="fw-bold text-center my-5">Frequently Asked <span class="text-danger">Questions</span></h1>
+            <h1 class="fw-bold text-center my-5">Frequently Asked <span class="text-bike">Questions</span></h1>
             <div class="row row-cols-lg-2 row-cols-1 align-items-center justify-content-center p-3 g-5">
                 <div class="col">
                     <img class="img-fluid" src="images/faq.png" alt="">

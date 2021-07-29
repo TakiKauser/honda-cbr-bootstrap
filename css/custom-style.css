@@ -1,0 +1,17 @@
+/* custom styles */
+
+.bg-banner{
+    background-color: #264653;
+}
+.text-gray{
+    color: #E0E0E0;
+}
+.text-bike{
+    color: #E77C40;
+}
+.btn-bike{
+    background-color: #E77C40;
+}
+.gray-image{
+    filter: grayscale(100%);
+}
